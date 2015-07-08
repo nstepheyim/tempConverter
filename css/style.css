@@ -42,9 +42,6 @@ Date:
 	padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
-div {
-     position
-}
 
 /******************************************
 /* BASE STYLES                   
@@ -58,27 +55,74 @@ body {
      margin:0 auto;
 }
 
+div {
+  float: left;
+  margin-left: 15%;
+  width: 30%;
+}
+
 /******************************************
 /* LAYOUT                   
 /*******************************************/
 
 /***** mobile *****/
 
+
+
 header {
 
 }
 
 main {
-
-}
-
-aside {
-
+     height: 300px;
+    
 }
 
 footer {
-
 }
+
+
+h1{ 
+  text-align: center;
+  font-size: 2em;
+  padding: 3%;
+  border: black solid 3px;
+  margin: 4%;
+}
+
+h3{
+  padding: 1%;
+  border-top: gray solid 1px;
+}
+button {
+     font-family: Merriweather, sans-serif;
+     text-align: center;
+     padding: 3%;
+     border: none;
+     margin-left: 2%;
+     color: white;
+}
+
+input {
+     border: none;
+     border-bottom: #DDD solid 1px;
+}
+
+.result {
+     text-align: center;
+     font-size: 5em;
+     padding-top: 10%;
+     clear: both;
+}
+
+.convertC {
+     background-color: #0BB5FF;
+}
+
+.convertF{
+     background-color: #EE0000;
+}
+
 
 /***** tablet 768 *****/
 
@@ -87,6 +131,7 @@ footer {
 body {
      font-size: 12px;
 }
+
 }
 
 /***** desktop 1024 *****/

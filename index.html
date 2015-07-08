@@ -4,6 +4,7 @@
     	<meta charset="utf-8">
     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three">
+    	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oswald:700|Merriweather:700,700italic' rel='stylesheet' type='text/css'>
 
     	<!---for mobile-->
     	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> 
@@ -11,20 +12,30 @@
 		<title>Blank Template</title>
 		
 		<!--external CSS link -->
+
 		<link rel="stylesheet" href="css/reset.css">
 
 		<link rel="stylesheet" href="css/style.css">
 
 	</head>
 	<body>
-
+	<header>
+		<h1>Convert F to C and C to F!</h1>
+	</header>
+	<main class = "clearfix">
+	<div class="C">
 		<input type="text" class="userTempF">
 		<button class="convertC">Convert from F to C</button>
-		<p class="resultC"></p>
-
+	</div>
+	<div class="F">
 		<input type="text" class="userTempC">
 		<button class="convertF">Convert from C to F</button>
-		<p class="resultF"></p>
+	</div>
+	<p class="result"></p>
+	</main>
+	<footer>
+		<h3>Made by Stephanie Yim for General Assembly FEWD61 2015</h3>
+	</footer>
 		<!-- javascript -->
 		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src="js/main.js"></script>
